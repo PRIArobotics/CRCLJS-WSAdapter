@@ -1,7 +1,7 @@
 {
-  "name": "wsadapter",
+  "name": "crcljs-wsadapter",
   "version": "1.0.0",
-  "description": "CRCL documentation and reference implementation",
+  "description": "CRCLJS Websocket Adapter for TCP CRCL-Robots",
   "main": "module.mjs",
   "scripts": {
     "test": "nyc mocha ./test",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PRIArobotics/wsadapter.git"
+    "url": "git+https://github.com/PRIArobotics/CRCLJS-WSAdapter.git"
   },
   "keywords": [
     "crcl",
@@ -18,11 +18,10 @@
     "node"
   ],
   "author": "Timon Hoebert",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PRIArobotics/CRCL/issues"
+    "url": "https://github.com/PRIArobotics/CRCLJS-WSAdapter/issues"
   },
-  "homepage": "https://github.com/PRIArobotics/CRCL#readme",
+  "homepage": "https://github.com/PRIArobotics/CRCLJS-WSAdapter#readme",
   "dependencies": {
     "express": "^4.17.1",
     "lodash": "^4.17.15",
